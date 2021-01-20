@@ -1,89 +1,67 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-UK">
 
     <head>
-        <!--<style>
-            table, th, td {
-                border: 1px solid black;
-                border-collapse: collapse;
-            }
-
-            table {
-                border-spacing: 5px;
-            }
-
-            td {
-                text-align: center;
-            }
-
-            th {
-                text-align: right;
-                padding: 15px;
-            }
-        </style>-->
-        <title>My page! | Luigi Trantino ;)</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Luigi's personal page!</title>
+        <!--<link rel="icon" href="Inserire icona!">-->
+        <link rel="stylesheet" href="style.css">
     </head>
 
     <body>
-        <h1><a href="#">Welcome!</a></h1>
-        <h2>This is my personal page</h2>
-        <img src="me.png" width="15%"alt="A picture of myself">
-
-        <div>
-            <p style="color: blue">Paragrafo blu</p>
-            <p><a href="https://google.com" target="_blank">link</a></p>
-            <p>Lista non ordinata</p>
+        <nav>
+            <h1>Luigi Francesco Trantino</h1>
             <ul>
-                <li>Lorem</li>
-                <li>Ipsum</li>
-                <li>Sic</li>
+                <a href="#About"><li>About</li></a>
+                <a href="#Academics"><li>Academics</li></a>
+                <a href="#S&K"><li>Skills & Hobbies</li></a>
+                <a href="#Contacts"><li>Contacts</li></a>
             </ul>
-            <p>Lista ordinata</p>
-            <ol>
-                <li>Elemento 1</li>
-                <li>Elemento 2</li>
-            </ol>
-            <br>
-            <br>
-            <form>
-                <p>Get in touch with me!</p>
-                <input type="email" placeholder="email?">
-                <input type="button" value="keek">
-            </form>
-        </div>
-        <br>
+        </nav>
 
-        <div>
-            <table>
-                <caption>Random table</caption>
-                <tr>
-                    <th>Firstname</th>
-                    <th>Lastname</th>
-                    <th>Age</th>
-                </tr>
-                <tr>
-                    <td>Luigi</td>
-                    <td>Trantino</td>
-                    <td>21</td>
-                </tr>
-                <tr>
-                    <td>Carcarlo</td>
-                    <td>Pravettoni</td>
-                    <td>11</td>
-                </tr>
-                <tr>
-                    <th colspan="2">Cell number</th>
-                    <th colspan="2">+39 300 11 43 323</th>
-                </tr>
-            </table>
-        </div>
+        <main>
+            <section id="About">
+                <h2>About</h2>
+                <p>Hello there! I'm Luigi, I'm a 21 y/o
+                    engineering student based in Italy.
+                    <br>My main 
+                </p>
+            </section>
 
-        <br>
+            <section id="Academics">
+                <h2>Academics</h2>
+                <p>Lorem ipsum</p>
+            </section>
 
-        <footer>
-            <p>Copyright by ...</p>
-        </footer>
+            <section id="SnH">
+                <h2>Skills & Hobbies</h2>
+                <div>
+                    <ul>
+                        <li>Test</li>
+                        <li>Test</li>
+                        <li>Test</li>
+                        <li>Test</li>
+                        <li>Test</li>
+                    </ul>
+                </div>
+                <div>
+                    <ul>
+                        <li>Test</li>
+                        <li>Test</li>
+                        <li>Test</li>
+                        <li>Test</li>
+                        <li>Test</li>
+                    </ul>
+                </div>
+            </section>
 
+            <footer id="Contacts">
+                <h3>Contacts</h3>
+                <span>F</span>
+                <span>I</span>
+                <span>L</span>
+            </footer>
+        </main>
     </body>
-
 </html>

@@ -1,0 +1,74 @@
+/*style.css*/
+
+body {
+    margin: 0px;
+}
+
+nav {
+    background-color: wheat;
+    padding: 2%;
+    position:fixed;
+    top: 0px;
+    
+}
+
+nav a {
+    text-decoration: none;
+    color: unset;
+}
+
+nav h1 {
+    margin: 1%;
+    display: inline-block;
+}
+
+nav ul {
+    margin: 1%;
+    padding-left: 10px;
+    padding-top: 0%;
+    vertical-align: middle;
+    display: inline-block;
+    list-style: none;
+}
+
+nav li {
+    /*padding-left: 10px;
+    display: inline;*/
+}
+
+section h2, p, ul {
+    text-align: center;
+}
+
+div {
+    margin: 0vw 0vw;
+    padding: 0.1em;
+    background-color: whitesmoke;
+}
+
+section h2 {
+    display: block;
+}
+
+div ul {
+    padding: 5px;
+    margin: 0px;
+    list-style-position: inside;
+}
+
+#About {
+    background-image: url('https://picsum.photos/1920/1080');
+}
+
+#Academics {
+    background-image: url('https://picsum.photos/1919/1080');
+}
+
+#SnH {
+    display: flex;
+    background-image: url('https://picsum.photos/1920/1079');
+}
+
+#Contacts {
+    background-image: url('https://picsum.photos/1919/1079');
+}
