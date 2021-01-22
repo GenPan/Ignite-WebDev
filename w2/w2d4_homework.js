@@ -36,7 +36,7 @@
     14) Create function revertArray that revert the elements into an array
 
     15) Create function swappy that receives 2 positions and swap them into the array. 
-        Example: array = [ 1, 2, 3, 4]. Swappy(0, 3) ==> [3, 2, 1, 4]
+        Example: array = [ 1, 2, 3, 4]. Swappy(array, 0, 3) ==> [4, 2, 3, 1]
 
 */
 
@@ -64,8 +64,8 @@ function tripleSum(a, b, c) {
 }
 
 function factorial(x) {
-   for(var i=0; x>0; ) {
-      i += x--
+   for(var i=1; x>0; ) {
+      i *= x--
    }
 
    return i
@@ -96,6 +96,116 @@ function absolute(ab) {
    else return -ab
 }
 
-function fizzBuzz() {
+function fizzBuzz(n) {
+   if( (n%3 == 0) && (n%7 == 0) ) {
+      return console.log('fizzBuzz');
+   }
+
+   if( (n%3) == 0) {
+      return console.log('fizz');
+   }
+
+   if( (n%7) == 0) {
+      return console.log('Buzz');
+   }
+
+   return console.log(n);
+}
+
+function positive(n) {
+   if(n>0) {
+      return console.log('true');
+   }
+
+   return console.log('false');
+}
+
+function transform(n) {
+   if(n>=0 && n<=9) {
+      if(n==0) {
+         return console.log('zero');
+      }
+
+      if(n==1) {
+         return console.log('uno');
+      }
+
+      if(n==2) {
+         return console.log('due');
+      }
+
+      if(n==3) {
+         return console.log('tre');
+      }
+
+      if(n==4) {
+         return console.log('quattro');
+      }
+
+      if(n==5) {
+         return console.log('cinque');
+      }
+
+      if(n==6) {
+         return console.log('sei');
+      }
+
+      if(n==7) {
+         return console.log('sette');
+      }
+
+      if(n==8) {
+         return console.log('otto');
+      }
+
+      if(n==9) {
+         return console.log('nove');
+      }
+   }
+
+   return console.log('Inserire numero tra 0 e 9 compresi')
+}
+
+function sum(array) {
+   var tot=0;
+
+   for(let i=0; i<=array.length; ) {
+      if(isNaN(array[i]) == false) {
+         tot += array[i++];
+      }
+   }
+
+   return tot;
+}
+
+function min(array) {
+   var min = Number.MAX_SAFE_INTEGER;
+
+   for(let i=0; i<=array.length; i++) {
+      if(array[i]<min) {
+         min = array[i];
+      }
+   }
+
+   return min;
+}
+
+function arrayFi() {
    
+}
+
+function objectyFi() {
+   
+}
+
+function revertArray() {
+   
+}
+
+function swappy(array, p1, p2) {
+   mem = array[p1];
+   array[p1] = array[p2];
+   array[p2] = mem;
+
+   return console.log(array);
 }
