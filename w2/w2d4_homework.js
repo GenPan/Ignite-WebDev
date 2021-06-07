@@ -71,6 +71,7 @@ function factorial(x) {
    return i
 }
 
+//Es. 5
 function calculator(num1, num2, operation) {
    if(operation=='+') {
       return num1+num2
@@ -166,6 +167,7 @@ function transform(n) {
    return console.log('Inserire numero tra 0 e 9 compresi')
 }
 
+//Es. 10
 function sum(array) {
    var tot=0;
 
